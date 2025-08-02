@@ -1,2 +1,1 @@
-pyTelegramBotAPI
-googletrans==4.0.0-rc1
+python-telegram-bot==20.3
