@@ -11,8 +11,8 @@ from telegram.ext import (
 )
 
 # استبدل هذا بـ API Token الخاص بروبوتك
-TOKEN =  "8293785720:AAGZCRwR3_r93E-yd8S04Q0PmowCX-OPe0k"
-
+import os
+TOKEN = os.environ.get("BOT_TOKEN")
 def fix_python_code(code_string):
     """
     يقوم بتحليل كود بايثون لتحديد وتصحيح الأخطاء الشائعة.
